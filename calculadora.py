@@ -39,10 +39,10 @@ def divisao_inteira(a, b):
 
 OPERACOES_UNARIAS = {"7"}
 
-def ler_numero(mensagem): 
+def ler_numero(mensagem):
     while True:
-        try: 
-            return float(mensagem) # Corrigido: float
+        try:
+            return float(input(mensagem))
         except ValueError:
             print("Valor inválido. Digite um número.")
 
